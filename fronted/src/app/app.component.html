@@ -1,5 +1,31 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
-  <app-nav></app-nav>
+	<div class="row">
+		<div class="col-md-12 head">
+			<div class="row">
+				<div class="col-md-12 topbg"></div>	
+			</div>
+			<app-nav></app-nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 body">
+			<content-root></content-root>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 footerbg">
+			<div class="row">
+				<div class="col-md-12 footer">
+					<footer class="">
+						<p>Author : {{author.name}}</p>
+						<p>Email : {{author.Email}}</p>
+						<p>cndn : <a ng-src="author.csdn">{{author.csdn}}</a></p>
+					</footer>
+				</div>
+			</div>
+			
+		</div>
+	</div>
 </div>
 

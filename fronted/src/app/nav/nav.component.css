@@ -1,0 +1,29 @@
+.navTitle,.navSearch{
+	height:145px;
+}
+.navTitle{
+	padding-top:40px;
+	text-align: center;
+}
+.navSearch{
+	padding-top:80px;
+}
+.navItem{
+	position: relative;
+	widht:782px;
+	height:66px;
+	color:white;
+	font-size:20px;
+	line-height: 66px;
+	font-weight: bold;
+
+	background-image: url("../../images/navbg.jpg");
+	background-size: 782px 66px;
+	background-repeat: no-repeat;
+
+}
+.navItem ul li {
+	padding-left:20px;
+	display:inline-block;
+	cursor:pointer;
+}

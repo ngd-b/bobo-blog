@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {NavModule} from './nav/nav.module';
+import {ContentModule} from './content/content.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import {NavModule} from './nav/nav.module';
   ],
   imports: [
   	NavModule,
+  	ContentModule,
     BrowserModule
   ],
   providers: [],
